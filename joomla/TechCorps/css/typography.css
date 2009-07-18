@@ -5,7 +5,7 @@ body {
 	font-size: 12pt;
 }
 
-#joomla_heading h1 a {
+.heading h1 a {
 	text-indent: -10000;
 }
 
