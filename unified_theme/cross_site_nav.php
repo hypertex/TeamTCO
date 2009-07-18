@@ -1,6 +1,18 @@
+<?php
+  function build_link($site_name, $site_url) {
+    $site = $_GET['site'];
+    if (ereg("$site", $site_url)) {
+      $cssid = " id='currentsite'";
+    } else {
+      $cssid = " class='sitenav'";
+    }
+    echo("<li><a$cssid href='$site_url'>$site_name</a></li>");
+  }
+?>
+
 <ul class="sitenav">
-	<li><a href="http://techcorpsohio.org">tech corps ohio</a></li>
-	<li><a href="http://studenttechcorps.org/moodle">student tech corps</a></li>
-	<li><a href="http://clubtechcorps.org">club tech corps</a></li>
-	<li><a href="http://techcorpsvolunteer.org">tech corps volunteer</a></li>
+  <?php build_link("tech corps ohio",    "http://techcorpsohio.org"); ?>
+  <?php build_link("student tech corps", "http://studenttechcorps.org/moodle"); ?>
+  <?php build_link("club tech corps",    "http://clubtechcorps.org"); ?>
+  <?php build_link("tech corps volunteer", "http://techcorpsvolunteer.org"); ?>
 </ul>

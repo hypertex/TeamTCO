@@ -1,8 +1,21 @@
 body {
 	background: #003366;
 	color: #000033;
-	font-family: "Arial";
+	font-family: Arial,Helvetica,Garuda,sans-serif;
 	font-size: 12pt;
+}
+
+a {
+	color: #CC0000;
+	font-weight: bold;
+}
+
+a:hover{
+	text-decoration: underline;Arial,Helvetica,Garuda,sans-serif;
+}
+
+a:visited {
+	color: #CA0000;
 }
 
 .heading h1 a {
@@ -33,26 +46,16 @@ body {
 .pagenav:hover {
 }
 
-.sitenav {
+.sitenav li a {
 	color: #FFFFFF;
 	font-variant: small-caps;
+  font-weight: normal;
 }
 
 #currentsite {
 	color: #5a9adf; 
+  font-weight: normal;
 }
 
-a {
-	color: #CC0000;
-	font-weight: bold;
-}
-
-a:hover{
-	text-decoration: underline;
-}
-
-a:visited {
-	color: #CA0000;
-}
 
 
