@@ -1,0 +1,178 @@
+/* @group Additional Style sheets */
+@import url('initial.css');
+@import url('layout.css');
+@import url('modules.css');
+@import url('menus.css');
+@import url('basic_typography.css');
+@import url('style.css');
+@import url('clearing.css');
+/* @end */
+
+/* @group default Joomla styles */
+/*
+*	You can can the default Joomla styles here
+*	if you haven't already added specific style
+*	rules in "style.css". If you have already added
+*	specific style rules to "style.css" you will be
+*	over-riding those with the styles you declare
+*	below.
+*/
+div.componentheading {}
+div.contentpane {}
+div.contentdescription {}
+td.sectiontablefooter {}
+td.sectiontableheader {}
+a.category {}
+td.sectiontableentry1 {}
+td.sectiontableentry2 {}
+form#selectForm {}
+table.contentpane {}
+td.contentheading {}
+form#emailForm {}
+input#contact_name {}
+label#contact_emailmsg {}
+input#contact_email {}
+input#contact_subject {}
+label#contact_textmsg {}
+textarea#contact_text {}
+input#contact_email_copy {}
+form.form-validate {}
+div.contact_email {}
+input.inputbox {}
+input.required {}
+input.validate-email {}
+textarea.inputbox {}
+textarea.required {}
+button.button {}
+button.validate {}
+span.hasTip {}
+hr#system-readmore {}
+form#jForm {}
+ul#archive-list {}
+div#navigation {}
+li.row {}
+h4.title {}
+h5.metadata {}
+span.created-date {}
+span.author {}
+div.intro {}
+div.contentpaneopen_edit {}
+table.contentpaneopen {}
+a.contentpagetitle {}
+td.buttonheading {}
+span.small {}
+td.createdate {}
+td.modifydate {}
+a.readon {}
+span.article_separator {}
+input#title {}
+input#created_by_alias {}
+input#publish_up {}
+input#publish_down {}
+textarea#metadesc {}
+textarea#metakey {}
+table.adminform {}
+td.key {}
+img.calendar {}
+input#alt {}
+table.blog {}
+td.article_column {}
+div.blog_more {}
+a.blogsection
+td.contentdescription {}
+span .article_separator {}
+td.componentheading {}
+form#poll {}
+table.pollstableborder {}
+th.sectiontableheader {}
+td.smalldark {}
+span.highlight {}
+table.searchintro {}
+input#search_searchword {}
+/*input#area_{VALUE} {} /* Value is set programatically. Replace {VALUE} with the ID VALUE of the input you want to target */
+input.button {}
+form#login {}
+form#josForm {}
+label#namemsg {}
+input#name {}
+label#usernamemsg {}
+input#username {}
+label#emailmsg {}
+input#email {}
+label#pwmsg {}
+input#password {}
+label#pw2msg {}
+input#password2 {}
+div.message {}
+form.josForm {}
+label.hasTip {}
+input#password1 {}
+input.validate-password {}
+input#token {}
+input#name {}
+form#adminForm {}
+input#jformtitle {}
+input#jformurl {}
+textarea#jformdescription {}
+table#explain-sql {}
+table.Table {}
+td.TD {}
+div#keepAliveLayer {}
+/*input#cb{ROW_NUMBER} {} /* Value is set programatically. Replace {ROW NUMBER} with the Row Number of the input checkbox you want to target */
+dl.tabs {}
+div.pane-sliders {}
+div.panel {}
+h3.jpane-toggler  {}
+h3.title {}
+div.jpane-slider  {}
+div.content {}
+table.paramlist {}
+table.admintable {}
+td.paramlist_description {}
+td.paramlist_key {}
+td.paramlist_value {}
+div.toolbar {}
+#search {}
+input.text_area {}
+select.inputbox {}
+span.breadcrumbs  {}
+span.pathway {}
+/*button#trigger_{ID} {} /* Value is set programatically. Replace {ID} with the ID number of the button you want to target */
+div.expander {}
+/*input#{NAME} {} /* Value is set programatically. Replace {NAME} with the ID name of the input you want to target */
+div#overDiv {}
+a.tooltip {}
+/*form{FORMNAME} {} /* Value is set programatically. Replace {FORMNAME} with the name of the form you want to target */
+link#luna-tab-style-sheet {}
+/*div#{PANEID} {} /* Value is set programatically. Replace {PANEID} with the PANEID of the div you want to target */
+div.tab-page {}
+h2.tab {}
+div.bannergroup {}
+div.bannerheader {}
+div.banneritem {}
+div.clr {}
+div.bannerfooter {}
+a.pathway {}
+table.moduletable {}
+ul.newsfeed {}
+ul.latestnews {}
+li.latestnews {}
+a.latestnews {}
+input#mod_login_username {}
+input#mod_login_password {}
+input#mod_login_remember {}
+/*li#{ITEM ID} {} /* Value is set programatically. Replace {ITEM ID} with the ITEM ID of the list liem you want to target */
+span.separator {}
+ul#mainlevel {}
+ul#sublevel {}
+ul.mostread {}
+li.mostread {}
+a.mostread {}
+table.poll {
+	margin: 5px auto 15px auto;
+}
+ul.relateditems {}
+input#mod_search_searchword {}
+div.search {}
+ul.sections {}
+/* @end */

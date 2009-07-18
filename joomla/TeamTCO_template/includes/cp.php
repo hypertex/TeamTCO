@@ -1,0 +1,1 @@
+<a href="http://www.joomlathemepro.com" target="_blank" title="Design by JoomlaTheme Pro - Professional Templates for Joomla 1.5"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/spacer.gif" alt="Template design by JoomlaThemePro" /></a>

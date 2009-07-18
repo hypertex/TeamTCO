@@ -1,0 +1,75 @@
+/* @group Basic typography */
+body {
+	font-family: Verdana, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.80em;
+	line-height: 1.4em;
+	color: #000;
+} /* we set the font size to 76% to compensate for different browsers and operating systems. 76% tends to look like 12px on most screens and we set the line height equalt to the height of an uppercase "M" character */
+
+	div {font-size: 1em;}
+	
+	div#page {}
+		div#header {text-align: left;}
+
+			/* this declaration is for ie6 only, if you need to set specific font styles for the newsflash module and you have it published
+			in the Joomla default top position then you will need to set them here */
+			div#top-module table.contentpaneopen {}
+/* @end Basic typography */
+
+/* @group Links */
+			a, a:link {}
+			a:visited {}
+			a:hover {text-decoration: none;}
+/* @end links */
+
+/* @group Headings */
+			h1,	.componentheading  {
+	font-size: 1.75em;
+	font-weight: normal;
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+}
+			h2,	.contentheading {font-size: 1.50em;margin: 1.2em 0em 1.2em 0em;font-weight: normal;}
+			h3 {font-size: 1.25em;margin: 1.2em 0em 1.2em 0em;font-weight: normal;}
+			h4 {font-size: 1.00em;margin: 1.2em 0em 1.2em 0em;font-weight: bold;}
+			h5 {font-size: 0.80em;margin: 1.2em 0em 1.2em 0em;font-weight: bold;}
+			h6 {font-size: 0.80em;margin: 1.2em 0em 1.2em 0em;font-weight: bold;}
+/* @end headings */
+
+/* @group Text styles */
+			p {font-size: 1.0em;line-height: 1.8em;margin: 1.2em 0em 1.2em 0em;}
+			strong, b {font-weight: bold;}
+			em, i {font-style:italic;}
+			blockquote {border-left:10px solid #ddd;margin-left:10px;}
+			pre {font-family: monospace;font-size: 1.0em;}
+			code {font-family: "Courier New", Courier, monospace;font-size: 1em;white-space: pre;}
+			.small,
+			.createdate,
+			.modifydate {font-size: 85%;line-height: 90%;}
+/* @end text styles */
+
+/* @group Lists */
+			ol, ul, li {font-size: 1.0em;line-height: 1.8em;margin-top: 0.2em;margin-bottom: 0.1em;}
+				li > p {margin-top: 0.2em;}
+/* @end lists */
+
+/* @group Tables */
+			table {font-size: 1em;line-height: 1.8em;margin: 1.5em 0;padding: 0;}
+			table caption {font-weight: bold;margin: 0 0 0 0;padding: 0 0 1.5em 0;}
+				th {font-weight: bold;text-align: left;}
+					td {font-size: 1em; vertical-align: top;}
+					
+			form table {font-size: 1.1em;}
+			
+				
+/* @end tables */
+
+/* @group Horizontal rules */
+			hr {display: none;}
+			div.hr {height: 1px;margin: 1.5em 10px;border-bottom: 1px dotted #000;}
+/* @end horizontal rules */
+
+/* @group Code presentation */			
+	pre, code {font-family: monospace;font-size: 1.0em;}
+	/*moz 1.0/1.1/1.2.1, net 7.0/7.01 make this way too small, but we're not going to go larger because monospace tends to run you into overflow pretty quick. prior moz and net are okay.*/
+/* @end code presentation */

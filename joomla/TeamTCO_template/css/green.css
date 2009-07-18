@@ -1,0 +1,303 @@
+/*Layoutstyling */
+
+body {
+	color: #000;
+	background-color: #2C371A;
+}
+
+div#page {
+	background-color: #80AA38;
+	
+	}
+	
+	/* @group Links */
+			a, a:link {
+	color: #973266;
+}
+			a:visited {}
+			a:hover {color: #364420; text-decoration: underline;}
+/* @end links */
+	
+h1.pagetitle, h1.pagetitle a {
+	color: #364420;
+}
+
+h1.title, h1.title a {
+	color: #973265;
+}
+
+#displaysitename h1{
+	color:#000000;
+	font-family: "Trebuchet MS", Verdana, Helvetica, Arial;
+	font-size: 1.75em;
+}
+
+#BodyContent {
+background-image: url(../images/green/pagebg.jpg);
+	background-repeat: repeat;
+	background-position: 30px;
+}
+	
+div#header {
+background-color: #A4CF5B;
+background-image: url(../images/green/header.jpg);
+background-repeat: no-repeat;
+}
+
+div#top-module-top {
+background-image: url(../images/green/topmod-top.jpg);
+background-repeat: no-repeat;
+height: 10px;
+margin-top: 5px;
+}
+
+div#top-module {
+	background-image: url(../images/green/topmod.jpg);
+	background-repeat: repeat-y;
+}
+
+div#top-module-bottom {
+background-image: url(../images/green/topmod-top.jpg);
+background-repeat: no-repeat;
+height: 10px;
+}
+
+div#top-module a {
+	color: #973265;
+}
+
+#top-module h3 {
+	color: #973265;
+}
+
+div#padweg {
+	width: 100%;
+	margin-top:5px;
+	height: 34px;
+	line-height: 26px;
+	background-image: url(../images/green/padweg.jpg);
+	background-repeat: repeat-x;
+	color:#ffffff;
+}
+
+#padweg a {
+	color:#ffffff;
+}
+
+div#breadcrumbs {
+	
+}
+
+
+
+#left-only #MiddleCol {
+	background: url(../images/green/maincolsingle.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #ffffff;
+
+} 
+		#right-only #MiddleCol {	
+	background: url(../images/green/maincolsingle.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #ffffff;
+
+	} 
+		#wide #MiddleCol {
+		background: url(../images/green/maincolwide.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #ffffff;
+
+	} 
+
+#both #MiddleCol
+
+{
+	background-image: url(../images/green/maincolboth.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #ffffff;
+	
+}
+
+#left div.inside {
+	background-color: #fff;
+	
+}
+
+#right div.inside {
+	background-color: #fff;
+	
+
+	
+}
+
+#footermax {
+	background-color: #647C3A;
+	background-image: url(../images/green/footbg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	min-height:72px;
+	color: #fff;
+}
+
+#footermax a{
+color:#fff;
+}
+
+#footer div.inside {
+	
+}
+
+
+/* Modulestyling */
+
+.moduletable h3, .moduletable_text h3, .moduletable_menu h3        {
+color:#ffffff;
+
+	text-transform: uppercase;
+}
+
+#top-user-modules .moduletable, #top-user-modules .moduletable_text, #top-user-modules .moduletable_menu        {
+	background-color: #973265;
+	background-image: url(../images/green/modtop.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding: 5px;
+}
+
+#top-user-modules a        {
+	color: #ffffff;
+}
+
+#bottom-user-modules .moduletable, #bottom-user-modules .moduletable_text, #bottom-user-modules .moduletable_menu        {
+	background-color: #973265;
+	background-image: url(../images/green/modtop.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding: 5px;
+}
+
+#bottom-user-modules {
+	margin-top: 10px;
+	padding: 0px;
+}
+#bottom-user-modules a        {
+	color: #ffffff;
+}
+
+#search-module {
+	
+}
+
+div#jtpcopyright {
+	color: #fff;
+	font-size:10px
+}
+
+div#jtpcopyright a{
+	color: #fff;
+}
+
+div.module { }
+	div.module div { margin:0; padding:1em 0 0 0; }
+		div.module div div {
+	margin: 0;
+	padding: 0 0 0 7px;
+}
+			div.module div div div {
+	margin: 0;
+	padding: 0 0 0.5em 0;
+	
+}
+				div.module div div div div { margin:0; padding:0; }
+					div.module div div div div p { margin:0; padding:0; line-height:1.6; background:none; }
+
+#left h3 {
+	background-color: #973264;
+	height: 40px;
+	line-height: 35px;
+	text-indent: 5px;
+	background-image: url(../images/green/h3bg.jpg);
+	background-repeat: no-repeat;
+	color: #ffffff;	
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+
+#right h3 {
+	background-color: #973264;
+	height: 40px;
+	line-height: 35px;
+	text-indent: 5px;
+	background-image: url(../images/green/h3bg.jpg);
+	background-repeat: no-repeat;
+	color: #ffffff;	
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+
+
+/* Menustyling */
+
+#nav {
+	background-color: #2C371A;
+	background-image: url(../images/green/navtop.jpg);
+	background-repeat: repeat-x;
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+			
+#nav ul li a, #nav ul li a:visited {
+	color: #ffffff;
+	font-weight: bold;
+	border-right: 1px solid #2C371A;
+}
+#nav ul li a:hover {
+	color: #ffffff;
+	background-color: #E2E682;
+	background-image: url(../images/green/navtophover.jpg);
+	background-repeat: repeat-x;
+}
+#nav ul li#current a{
+	color: #ffffff;
+	background-color: #E2E682;
+	background-image: url(../images/green/navtophover.jpg);
+	background-repeat: repeat-x;
+}
+
+#nav ul li ul li#current a{
+	color: #ffffff;
+	background-color: #973265;
+	background-image: none;
+}
+#nav a#active_menu-nav {
+
+}
+#nav ul li:hover a, #nav ul li.iehover a {
+}
+
+			
+/* first sub-level list (tier 2 links) */
+				#nav ul li ul {
+	border-left: 1px solid #2C371A;
+	border-bottom: 1px solid #2C371A;
+}
+				#nav ul li:hover ul li a, #nav ul li.iehover ul li a {background:#F0F2BF;color:#973265;}
+				#nav ul li:hover ul li:hover a, #nav ul li.iehover ul li.iehover a {
+	text-decoration: underline;
+}
+
+
+/* Second sub-level list (tier 3 links)*/
+							#nav ul li:hover ul li a, #nav ul li.iehover ul li a {color:#973265;}
+							#nav ul li:hover ul li a:hover, #nav ul li.iehover ul li a:hover {
+	color: #973265;
+	text-decoration: underline;
+}
+
+/* @end horizontal menu */
+								
