@@ -28,7 +28,7 @@ body {
 	margin: 0;
 	padding: 0px 0px;
 	text-align: left;
-	min-height: 169px;
+	min-height: 108px;
 }
 		
 		div#branding {
@@ -37,7 +37,7 @@ body {
 	height: 130px;
 	margin-left: 200px;
 	margin-top:20px;
-	background-image:	url(../images/logo.gif);
+
 	background-position: center;
 	background-repeat: no-repeat;
 	}
