@@ -26,10 +26,27 @@ $user =& JFactory::getUser();
 
 <head>
 	<jdoc:include type="head" />
-	<?php JHTML::_('behavior.mootools'); ?>
 
          <link href="http://www.techcorpsohio.org/unified_theme/css/headers.css" rel="stylesheet" type="text/css" media="screen" />
          <link href="http://www.techcorpsohio.org/unified_theme/css/typography.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+		<link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/template.css" rel="stylesheet" type="text/css" media="screen" />	
+    	<link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+
+    
+         <link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/modules.css" rel="stylesheet" type="text/css" media="screen" />
+         <link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/menus.css" rel="stylesheet" type="text/css" media="screen" />
+         
+<?php if ($this->params->get('styleSwitch') == 1): ?>
+   		<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/javascript/styleswitch.js"></script>
+	<?php endif; ?>
+         
+          <link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/<?php echo $this->params->get('colorStyle'); ?>.css" rel="stylesheet" type="text/css" media="screen" title="<?php echo $this->params->get('colorStyle'); ?>" />
+          
+    	<link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/joomla.css" type="text/css" /> 
+    
+
 
 	<script type="text/javascript">
     	window.onDomReady(function(){ new SmoothScroll({duration: 1200}); });
@@ -40,6 +57,7 @@ $user =& JFactory::getUser();
 <body id="<?php echo $style ;?>" class="joomla">
 <?php require("http://" . $_SERVER['HTTP_HOST'] . "/unified_theme/cross_site_nav.php?site=techcorpsohio.org"); ?>
 <div id="page">
+<?php readfile('http://www.techcorpsohio.org/unified_theme/cross_site_nav.php'); ?>
    
         <div id="header" class="clr clearfix heading techcorpsohio_header">
         
@@ -50,9 +68,9 @@ $user =& JFactory::getUser();
      
    <?php endif; ?>
    
-         <?php if ($this->params->get('logo') == 1): ?>
+<!--         <?php if ($this->params->get('logo') == 1): ?>
          <div id="branding"></div>    
-   <?php endif; ?>
+   <?php endif; ?> -->
             
         <?php if ($this->countModules('user4')) : ?>
             <div id="search-module">
@@ -87,13 +105,13 @@ $user =& JFactory::getUser();
  <div id="breadcrumbs">
         	<jdoc:include type="module" name="breadcrumbs" />
         </div><!-- end breadcrumbs -->
-                    <?php if ($this->params->get('styleSwitch') == 1): ?>
+<!--                    <?php if ($this->params->get('styleSwitch') == 1): ?>
                     <div id="colorchooser"><ul id="access">
 			
             <li class="green"><a href="#" onclick="styleswitch('set', 'green'); return false;"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/greencolor.gif" alt="green layout" /></a></li>
             <li class="blue"><a href="#" onclick="styleswitch('set', 'blue'); return false;"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/bluecolor.gif" alt="blue layout" /></a></li>
 			</ul></div>
-			<?php endif; ?>
+			<?php endif; ?> -->
        </div>
  
         <div id="BodyContent" class="clr clearfix">
@@ -173,13 +191,13 @@ $user =& JFactory::getUser();
 			</div><!-- end LoadFirst -->
 					
 	
-			<?php if($this->countModules('right') and JRequest::getCmd('layout') != 'form') : ?>
+<!--			<?php if($this->countModules('right') and JRequest::getCmd('layout') != 'form') : ?>
 			<div id="right">
 				<div class="inside">
 					<jdoc:include type="modules" name="right" style="xhtml" />
             	</div><!-- end inside -->
 			</div><!-- end RightCol -->
-            <?php endif; ?>
+            <?php endif; ?> -->
  <?php include("includes/cp.php"); ?> 
 </div><!-- end BodyContent -->
         
