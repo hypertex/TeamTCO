@@ -2,11 +2,11 @@
   function build_link($site_name, $site_url) {
     $site = $_GET['site'];
     if (ereg("$site", $site_url)) {
-      $class = " class='current_site'";
+      $cssid = " id='currentsite'";
     } else {
-      $class = "";
+      $cssid = " class='sitenav'";
     }
-    echo("<li><a$class href='$site_url'>$site_name</a></li>");
+    echo("<li><a$cssid href='$site_url'>$site_name</a></li>");
   }
 ?>
 
