@@ -2,7 +2,7 @@
 
 body {
 /*	color: #000; */
-	background-color: #003366;
+	background-color: url(http://www.techcorpsohio.org/unified_theme/images/background.jpg) center repeat-y #003366;
 }
 
 div#page {
