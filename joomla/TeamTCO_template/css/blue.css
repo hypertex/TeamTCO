@@ -89,35 +89,33 @@ div#breadcrumbs {
 
 
 #left-only #MiddleCol {
-	background: url(../images/blue/maincolsingle.jpg);
+/*	background: url(../images/blue/maincolsingle.jpg);
 	background-repeat: no-repeat;
 	background-position: top;
 	background-color: #ffffff;
-	
+	*/
 } 
 		#right-only #MiddleCol {	
-	background: url(../images/blue/maincolsingle.jpg);
+/*	background: url(../images/blue/maincolsingle.jpg);
 	background-repeat: no-repeat;
 	background-position: top;
 	background-color: #ffffff;
-	
+	*/
 	} 
 		#wide #MiddleCol {
-		background: url(../images/blue/maincolwide.jpg);
+/*		background: url(../images/blue/maincolwide.jpg);
 	background-repeat: no-repeat;
 	background-position: top;
 	background-color: #ffffff;
-	
+	*/
 	} 
 
-#both #MiddleCo
-
-{
-	background-image: url(../images/blue/maincolboth.jpg);
+#both #MiddleCo {
+/*	background-image: url(../images/blue/maincolboth.jpg);
 	background-repeat: no-repeat;
 	background-position: top;
 	background-color: #ffffff;
-	
+	*/
 }
 
 #left div.inside {
