@@ -44,8 +44,11 @@ $user =& JFactory::getUser();
     	<link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/joomla.css" type="text/css" /> 
     
 
-   <link href="http://www.techcorpsohio.org/unified_theme/css/headers.css" rel="stylesheet" type="text/css" media="screen" />
-   <link href="http://www.techcorpsohio.org/unified_theme/css/typography.css" rel="stylesheet" type="text/css" media="screen" />
+		<!-- Pull in styles from unified theme for Joomla/Moodle/WordPress on current server -->
+		<?php
+			echo '<link href="http://' . $_SERVER['HTTP_HOST'] . '/unified_theme/css/headers.css" rel="stylesheet" type="text/css" media="screen" />' . "\n";
+			echo '<link href="http://' . $_SERVER['HTTP_HOST'] . '/unified_theme/css/typography.css" rel="stylesheet" type="text/css" media="screen" />' . "\n";
+		?>
 
 
 	<script type="text/javascript">
