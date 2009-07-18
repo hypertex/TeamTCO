@@ -46,6 +46,10 @@ a:visited {
 	color: #FFFFFF;
 	font-variant: small-caps;
   font-weight: normal;
+  text-decoration: none;
+}
+.sitenav li a:hover {
+  text-decoration: underline;
 }
 
 #currentsite {
