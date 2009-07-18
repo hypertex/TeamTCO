@@ -89,6 +89,8 @@ ul.sitenav {
 /*	width: 100%; 
 	background-color: #003366; */
 	margin-top: 0;
+  padding-top: 5pt;
+  font-size: 10pt;
 }
 
 ul.sitenav li {
