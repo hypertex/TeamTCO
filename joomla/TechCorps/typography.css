@@ -1,0 +1,57 @@
+body {
+	color: #000033;
+	font-family: "Arial";
+	font-size: 12pt;
+}
+
+#joomla_heading h1 a {
+	text-indent: -10000;
+}
+
+.header,h2{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:header-<length>;
+  color: #006699;
+}
+
+.subheader,h3{
+	font-weight: bold;
+	font-size: 14pt;
+	color: #006699;
+}
+
+.pagenav {
+	color: #554433;
+	font-size: 20pt;
+	font-variant: small-caps;
+}
+
+.pagenav:hover {
+}
+
+.sitenav {
+	color: #FFFFFF;
+	font-variant: small-caps;
+}
+
+#currentsite {
+	color: #5a9adf; 
+}
+
+a {
+	color: #CC0000;
+	font-weight: bold;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #CA0000;
+}
+
+
