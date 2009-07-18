@@ -27,9 +27,6 @@ $user =& JFactory::getUser();
 <head>
 	<jdoc:include type="head" />
 
-         <link href="http://www.techcorpsohio.org/unified_theme/css/headers.css" rel="stylesheet" type="text/css" media="screen" />
-         <link href="http://www.techcorpsohio.org/unified_theme/css/typography.css" rel="stylesheet" type="text/css" media="screen" />
-
 
 		<link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/template.css" rel="stylesheet" type="text/css" media="screen" />	
     	<link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/style.css" rel="stylesheet" type="text/css" media="screen" />
@@ -46,6 +43,9 @@ $user =& JFactory::getUser();
           
     	<link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/joomla.css" type="text/css" /> 
     
+
+   <link href="http://www.techcorpsohio.org/unified_theme/css/headers.css" rel="stylesheet" type="text/css" media="screen" />
+   <link href="http://www.techcorpsohio.org/unified_theme/css/typography.css" rel="stylesheet" type="text/css" media="screen" />
 
 
 	<script type="text/javascript">
@@ -64,9 +64,13 @@ $user =& JFactory::getUser();
         
         <?php if ($this->params->get('sitename') == 1): ?>
        	<div id="displaysitename">
-		<h1><a><?php echo $mainframe->getCfg('sitename') ?></a></h1>
+          <h1><a><?php echo $mainframe->getCfg('sitename') ?></a></h1>
         </div>  
-     
+        <div id="sitetagline">
+          <h2>Enhancing K-12 education through<br />
+          the effective use of technology.</h2>
+        </div>
+       
    <?php endif; ?>
    
 <!--         <?php if ($this->params->get('logo') == 1): ?>

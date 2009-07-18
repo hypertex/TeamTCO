@@ -45,12 +45,12 @@ body {
 	}
 	
 			div#displaysitename {
-	float: left;
+/*	float: left;
 	width: 500px;
 	height: 130px;
 	margin-left: 200px;
 	margin-top:20px;
-
+*/
 	}
 /* -- Access links -- */
 			ul#access {list-style-type: none;}
@@ -201,5 +201,14 @@ We set the width of this container based upon the content layout logic. (see tem
 
 
 /* @end Maincontent */
+
+#sitetagline {
+  margin-top: -55px;
+  margin-left: 125px;
+  margin-bottom: 30px;
+}
+#sitetagline h2 {
+  font-size: 14pt;
+}
 
 /* @end Layout */

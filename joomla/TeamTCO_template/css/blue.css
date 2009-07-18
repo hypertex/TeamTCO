@@ -1,7 +1,7 @@
 /*Layoutstyling */
 
 body {
-	color: #000;
+/*	color: #000; */
 	background-color: #003366;
 }
 
@@ -186,7 +186,7 @@ div#jtpcopyright a{
 }
 
 #search-module {
-	
+  margin-top: -40px;	
 }
 
 div.module { }
