@@ -202,11 +202,11 @@ $user =& JFactory::getUser();
         
         <div id="footermax">
         <div id="footer" class="clearfix">
-        	<?php if ($this->countModules('footer')) : ?>
+<!--        	<?php if ($this->countModules('footer')) : ?>
 			<div class="inside">
             	<jdoc:include type="modules" name="footer" style="xhtml" />
             </div><!-- end inside -->
-            <?php endif; ?>
+            <?php endif; ?>    -->
             
 <!-- Back to top link -->
 		<div id="backtotoplink">

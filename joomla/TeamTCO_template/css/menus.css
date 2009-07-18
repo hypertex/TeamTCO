@@ -84,3 +84,14 @@
 									#nav ul li li li.parent li a:after {content: none;}
 /* @end horizontal menu */
 
+ul.sitenav {
+	float: right;
+	width: 100%;
+	background-color: #003366;
+	margin-top: 0;
+}
+
+ul.sitenav li {
+	float: right;
+	padding: 0 10px 0 10px;
+}
