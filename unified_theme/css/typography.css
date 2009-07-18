@@ -57,5 +57,7 @@ a:visited {
   font-weight: normal;
 }
 
-
+ul {
+	line-height: 1.3em;
+}
 
