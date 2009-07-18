@@ -1,3 +1,12 @@
+.heading a {
+  display:block;
+  /* float:left; */
+  height:108px;
+  /* position:absolute; */
+  text-indent:-9999px;
+  width:357px;
+  /* z-index:10000; */
+}
 .techcorpsohio_header {
 	background: url("http://techcorpsohio.org/unified_theme/images/tco_logo.jpg") no-repeat;
 }
