@@ -55,8 +55,9 @@ $user =& JFactory::getUser();
 </head>
 
 <body id="<?php echo $style ;?>" class="joomla">
-<div id="page">
   <?php require("http://" . $_SERVER['HTTP_HOST'] . "/unified_theme/cross_site_nav.php?site=techcorpsohio.org"); ?>
+  <div class="clearfix"></div>
+<div id="page">
    
         <div id="header" class="clr clearfix heading techcorpsohio_header">
         

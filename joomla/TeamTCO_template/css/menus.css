@@ -86,12 +86,12 @@
 
 ul.sitenav {
 	float: right;
-	width: 100%;
-	background-color: #003366;
+/*	width: 100%; 
+	background-color: #003366; */
 	margin-top: 0;
 }
 
 ul.sitenav li {
-	float: right;
+	float: left;
 	padding: 0 10px 0 10px;
 }
