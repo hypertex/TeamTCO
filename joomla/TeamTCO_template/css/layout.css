@@ -25,11 +25,12 @@ body {
 
 /* @group Header */
 		div#header {
-	margin: 0;
+/* Removed to unified theme
+  margin: 0;
 	padding: 0px 0px;
   padding-top: 1px;
 	text-align: left;
-	min-height: 108px;
+	min-height: 108px; */
 }
 		
 		div#branding {
