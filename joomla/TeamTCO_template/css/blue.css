@@ -2,11 +2,11 @@
 
 body {
 	color: #000;
-	background-color: #0C3058;
+	background-color: #003366;
 }
 
 div#page {
-	background-color: #E0E0E0;
+	background-color: #ffffff;
 	
 	}
 	
@@ -27,14 +27,13 @@ h1.title, h1.title a {
 }
 
 #BodyContent {
-background-image: url(../images/blue/pagebg.jpg);
 	background-repeat: repeat;
 	background-position: 30px;
 }
 	
 div#header {
 background-color: #4095EE;
-background-image: url(../images/blue/header.jpg);
+
 background-repeat: no-repeat;
 }
 
@@ -72,10 +71,10 @@ div#top-module a {
 
 div#padweg {
 	width: 100%;
-	background-color: #FFDC90;
+	background-color: #ccffcc;
+	background-image: url(http://techcorpsohio.org/unified_theme/images/bucket-header-bg.gif); 
 	height: 34px;
 	line-height: 26px;
-	background-image: url(../images/blue/padweg.jpg);
 	background-repeat: repeat-x;
 	color:#ffffff;
 	margin-top: 5px;
@@ -113,7 +112,7 @@ div#breadcrumbs {
 	
 	} 
 
-#both #MiddleCol
+#both #MiddleCo
 
 {
 	background-image: url(../images/blue/maincolboth.jpg);
@@ -137,7 +136,6 @@ div#breadcrumbs {
 
 #footermax {
 	background-color: #15569B;
-	background-image: url(../images/blue/footbg.jpg);
 	background-repeat: repeat-x;
 	background-position: top;
 	min-height:72px;
@@ -166,7 +164,6 @@ div#jtpcopyright a{
 #top-user-modules .moduletable, #top-user-modules .moduletable_text, #top-user-modules .moduletable_menu        {
 
 	background-color: #15569B;
-	background-image: url(../images/blue/modtop.jpg);
 	background-repeat: repeat-x;
 	background-position: top;
 	padding: 5px;
@@ -215,7 +212,7 @@ div.module { }
 	height: 40px;
 	line-height: 35px;
 	text-indent: 5px;
-	background-image: url(../images/blue/h3bg.jpg);
+
 	background-repeat: no-repeat;
 	color: #ffffff;	
 	margin-bottom: 0px;
@@ -244,26 +241,25 @@ div.module { }
 /* Menustyling */
 
 #nav {
-	background-color: #FFDC90;
-	background-image: url(../images/blue/navtop.jpg);
+	background-color: #ccffcc;
+	background-image: url(http://techcorpsohio.org/unified_theme/images/bucket-header-bg.gif);
 	background-repeat: repeat-x;
 	font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 			
 #nav ul li a, #nav ul li a:visited {
-	color: #ffffff;
+
 	border-right: 1px solid #0C3058;
 }
 #nav ul li a:hover {
-	color: #ffffff;
-	background-color: #FFDC90;
-	background-image: url(../images/blue/navtophover.jpg);
+
+
 	background-repeat: repeat-x;
 }
 #nav ul li#current a{
-	color: #ffffff;
+
 	background-color: #FFDC90;
-	background-image: url(../images/blue/navtophover.jpg);
+
 	background-repeat: repeat-x;
 }
 
