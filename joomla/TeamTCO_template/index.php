@@ -55,16 +55,15 @@ $user =& JFactory::getUser();
 </head>
 
 <body id="<?php echo $style ;?>" class="joomla">
-  <?php require("http://" . $_SERVER['HTTP_HOST'] . "/unified_theme/cross_site_nav.php?site=techcorpsohio.org"); ?>
-  <div class="clearfix"></div>
 <div id="page">
+<?php readfile('http://www.techcorpsohio.org/unified_theme/cross_site_nav.php'); ?>
    
         <div id="header" class="clr clearfix heading techcorpsohio_header">
         
         <?php if ($this->params->get('sitename') == 1): ?>
-       	<!-- div id="displaysitename" -->
+       	<div id="displaysitename">
 		<h1><a><?php echo $mainframe->getCfg('sitename') ?></a></h1>
-        <!-- /div -->  
+        </div>  
      
    <?php endif; ?>
    
@@ -190,14 +189,13 @@ $user =& JFactory::getUser();
 				
 			</div><!-- end LoadFirst -->
 					
-	
-<!--			<?php if($this->countModules('right') and JRequest::getCmd('layout') != 'form') : ?>
+			<?php if($this->countModules('right') and JRequest::getCmd('layout') != 'form') : ?>
 			<div id="right">
 				<div class="inside">
 					<jdoc:include type="modules" name="right" style="xhtml" />
             	</div><!-- end inside -->
 			</div><!-- end RightCol -->
-            <?php endif; ?> -->
+            <?php endif; ?> 
  <?php include("includes/cp.php"); ?> 
 </div><!-- end BodyContent -->
         
