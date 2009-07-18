@@ -27,6 +27,7 @@ body {
 		div#header {
 	margin: 0;
 	padding: 0px 0px;
+  padding-top: 1px;
 	text-align: left;
 	min-height: 108px;
 }

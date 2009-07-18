@@ -17,11 +17,11 @@ a:hover{
 a:visited {
 	color: #CA0000;
 }
-
+/*
 .heading h1 a {
 	text-indent: -10000;
 }
-
+*/
 .header,h2{
   position:absolute;
   top:0;

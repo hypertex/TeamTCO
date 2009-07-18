@@ -62,9 +62,9 @@ $user =& JFactory::getUser();
         <div id="header" class="clr clearfix heading techcorpsohio_header">
         
         <?php if ($this->params->get('sitename') == 1): ?>
-       	<div id="displaysitename">
+       	<!-- div id="displaysitename" -->
 		<h1><a><?php echo $mainframe->getCfg('sitename') ?></a></h1>
-        </div>  
+        <!-- /div -->  
      
    <?php endif; ?>
    
