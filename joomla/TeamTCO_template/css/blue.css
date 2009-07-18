@@ -69,17 +69,17 @@ div#top-module a {
 
 div#padweg {
 	width: 100%;
-	background-color: #ccffcc;
-	background-image: url(http://techcorpsohio.org/unified_theme/images/bucket-header-bg.gif); 
+	/* background-color: #ccffcc; */
 	height: 34px;
 	line-height: 26px;
 	background-repeat: repeat-x;
-	color:#ffffff;
+	color:#AAAAAA;
 	margin-top: 5px;
 }
 
 div#padweg a {
-	color:#ffffff;
+	color:#BBBBBB;
+  text-decoration: underline;
 }
 
 div#breadcrumbs {
@@ -246,8 +246,8 @@ div.module { }
 }
 			
 #nav ul li a, #nav ul li a:visited {
-
-	border-right: 1px solid #0C3058;
+/*
+	border-right: 1px solid #0C3058; */
 }
 #nav ul li a:hover {
 
