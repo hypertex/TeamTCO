@@ -6,7 +6,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 
-$THEME->sheets = array('cornflower');
+$THEME->sheets = array('TechCorpsOhio_theme');
 
 /// This variable is an array containing the names of all the 
 /// stylesheet files you want included in this theme, and in what order
