@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <install version="1.5" type="template">
-	<name>Flower Power</name>
+	<name>TechCorpsOhio</name>
 <creationDate>2009/8/3</creationDate>
-<author>Corine van Mourik</author>
-<authorEmail>corine@joomlathemepro.com</authorEmail>
-<authorUrl>http://www.joomlathemepro.com</authorUrl>
+<author>TeamTCO</author>
+<authorEmail>teamtco@adelphus.com</authorEmail>
+<authorUrl>http://www.columbusgivecamp.com</authorUrl>
 <copyright>Joomlatheme Pro</copyright>
 <license>Creative Commons</license>
 <version>1.0</version>
 <description>
 <![CDATA[
-			<h1>Flower Power Theme by Joomlatheme Pro</h1>
+			<h1>TechCorps Ohio Theme by TeamTCO</h1>
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/nl/"><img src="http://creativecommons.org/images/public/somerights20.png" alt="Creative Commons License" align="right" style="border-width:0" /></a>
   <ul>
 
-  <li><span xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:title">Flower Power</span> van <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.joomlathemepro.com" property="cc:attributionName" rel="cc:attributionURL">JoomlaTheme Pro</a> is in licentie gegeven volgens een <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/nl/">Creative Commons Naamsvermelding-Gelijk delen 3.0 Nederland licentie</a>.    </li>
-  <li><span xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:title">Flower Power</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.joomlathemepro.com" property="cc:attributionName" rel="cc:attributionURL">JoomlaTheme Pro</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/nl/">Creative Commons Attribution-Share Alike 3.0 Netherlands License</a>.
+  <li><span xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:title">TechCorps Ohio</span> van <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.joomlathemepro.com" property="cc:attributionName" rel="cc:attributionURL">JoomlaTheme Pro</a> is in licentie gegeven volgens een <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/nl/">Creative Commons Naamsvermelding-Gelijk delen 3.0 Nederland licentie</a>.    </li>
+  <li><span xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:title">TechCorps Ohio</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.joomlathemepro.com" property="cc:attributionName" rel="cc:attributionURL">JoomlaTheme Pro</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/nl/">Creative Commons Attribution-Share Alike 3.0 Netherlands License</a>.
   </li>
 </ul>
 			<ul>
@@ -24,11 +24,6 @@
 			</ul>
 
 			U vind meer templates en informatie op onze website: <b><a href="http://www.joomlathemepro.com" title="JoomlaTheme Pro - Professional Joomla Templates" target="_blank">JoomlaTheme Pro</a></b>
-
-			<ul>
-			<li>Free for personal and commercial use</li>
-			<li>It is NOT allowed to remove the copyright in the footer.</li>
-			</ul>
 
 			You can find more templates and information on our website: <b><a href="http://www.joomlathemepro.com" title="JoomlaTheme Pro - Professional Joomla Templates" target="_blank">JoomlaTheme Pro</a></b>
 			]]></description>

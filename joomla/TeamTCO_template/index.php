@@ -58,11 +58,9 @@ $user =& JFactory::getUser();
 </head>
 
 <body id="<?php echo $style ;?>" class="joomla">
-  <?php require("http://" . $_SERVER['HTTP_HOST'] . "/unified_theme/cross_site_nav.php?site=techcorpsohio.org"); ?>
-  <div class="clearfix"></div>
-
-<div id="page">
-   
+<div id="top-background">
+  <div class="sitenav">
+    <?php require("http://" . $_SERVER['HTTP_HOST'] . "/unified_theme/cross_site_nav.php?site=techcorpsohio.org"); ?>
         <div id="header" class="clr clearfix heading techcorpsohio_header">
         
         <?php if ($this->params->get('sitename') == 1): ?>
@@ -89,6 +87,11 @@ $user =& JFactory::getUser();
 
             
         </div><!-- end header -->
+  </div>
+</div>
+<div id="page">
+  <div class="clearfix"></div>
+
             
         
 <?php if ($this->countModules('user3')) : ?>

@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	background-color: url(http://www.techcorpsohio.org/unified_theme/images/background.jpg) center repeat-y #003366;
 }
 
 /* this declaration is for ie6 only, if you need to set specific font styles for the newsflash module and you have it published
@@ -164,12 +165,12 @@ div#cmswaycopyright {
 /* @group Maincontent */
 
 	div#page {
-	margin: 10px auto 10px auto;
+	margin: 0 auto;
 	padding: 0;
-	width: 1000px;
+	width: 960px;
 } /* we want to center this div for browsers that understand so we have an auto declaration for the left and right margin */ 	
 
-	div#nav {width: 1000px;} /* the width of our outermost container minus any margin or padding */
+	div#nav {width: 950px; margin: 0 1px;} /* the width of our outermost container minus any margin or padding */
 	
 	li.narrow {display: block;}
 	li.wide {display: none;}

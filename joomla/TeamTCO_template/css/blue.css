@@ -1,15 +1,19 @@
 /*Layoutstyling */
 
 body {
-/*	color: #000; */
-	background-color: url(http://www.techcorpsohio.org/unified_theme/images/background.jpg) center repeat-y #003366;
+	background: url(http://www.techcorpsohio.org/unified_theme/images/background.jpg) top center repeat-y #003366;
 }
-
-div#page {
-	background-color: #ffffff;
-	
-	}
-	
+div#top-background {
+  background: url(http://www.techcorpsohio.org/unified_theme/images/top_background.jpg) top center no-repeat transparent;
+  width: 100%;
+  float: left;
+  height: 200px;
+}
+div#top-background div.sitenav {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
 	/* @group Links */
 			a, a:link {
 	color: #15569B;
