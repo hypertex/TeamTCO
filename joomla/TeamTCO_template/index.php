@@ -46,8 +46,12 @@ $user =& JFactory::getUser();
 
 		<!-- Pull in styles from unified theme for Joomla/Moodle/WordPress on current server -->
 		<?php
-			echo '<link href="http://' . $_SERVER['HTTP_HOST'] . '/unified_theme/css/headers.css" rel="stylesheet" type="text/css" media="screen" />' . "\n";
-			echo '<link href="http://' . $_SERVER['HTTP_HOST'] . '/unified_theme/css/typography.css" rel="stylesheet" type="text/css" media="screen" />' . "\n";
+      $csshost = 'techcorpshio.org';
+      if (! ereg("\.org$", $_SERVER['HTTP_HOST'])) {
+        $csshost = $_SERVER['HTTP_HOST'];
+      }
+			echo '<link href="http://' . $csshost . '/unified_theme/css/headers.css" rel="stylesheet" type="text/css" media="screen" />' . "\n";
+			echo '<link href="http://' . $csshost . '/unified_theme/css/typography.css" rel="stylesheet" type="text/css" media="screen" />' . "\n";
 		?>
 
 
@@ -60,7 +64,7 @@ $user =& JFactory::getUser();
 <body id="<?php echo $style ;?>" class="joomla">
 <div id="top-background">
   <div class="sitenav">
-    <?php readfile("http://" . $_SERVER['HTTP_HOST'] . "/unified_theme/cross_site_nav.php?site=techcorpsohio.org"); ?>
+    <?php readfile("http://" . $csshost . "/unified_theme/cross_site_nav.php?site=techcorpsohio.org"); ?>
         <div id="header" class="clr clearfix heading techcorpsohio_header">
         
         <?php if ($this->params->get('sitename') == 1): ?>
