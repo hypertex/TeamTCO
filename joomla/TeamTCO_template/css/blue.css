@@ -274,10 +274,10 @@ div.module { }
 			
 /* first sub-level list (tier 2 links) */
 				#nav ul li ul {
-	border-left: 1px solid #0C3058;
-	border-bottom: 1px solid #0C3058;
+	border-left: 1px solid #f1ede7;
+	border-right: 1px solid #f1ede7;
 }
-				#nav ul li:hover ul li a, #nav ul li.iehover ul li a {background:#F0F2BF;color:#973265;}
+				#nav ul li:hover ul li a, #nav ul li.iehover ul li a {background:url(http://techcorpsohio.org/unified_theme/images/bucket-header-bg.gif) repeat-x;color:#973265;}
 				#nav ul li:hover ul li:hover a, #nav ul li.iehover ul li.iehover a {
 	text-decoration: underline;
 }
