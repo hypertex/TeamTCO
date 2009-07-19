@@ -175,7 +175,7 @@ table.poll {
 	margin: 5px auto 15px auto;
 }
 ul.relateditems {}
-input#mod_search_searchword {}
+input#mod_search_searchword { width: 162px; }
 div.search {}
 ul.sections {}
 /* @end */

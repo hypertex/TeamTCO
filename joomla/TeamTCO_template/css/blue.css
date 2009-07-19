@@ -187,7 +187,8 @@ div#jtpcopyright a{
 }
 
 #search-module {
-  margin-top: -40px;	
+  margin-top: 36px;	
+  margin-left: 6px;
 }
 
 div.module { }
