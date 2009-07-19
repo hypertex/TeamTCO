@@ -220,7 +220,7 @@ $user =& JFactory::getUser();
 <!--        	<?php if ($this->countModules('footer')) : ?>
 			<div class="inside">
             	<jdoc:include type="modules" name="footer" style="xhtml" />
-            </div><!-- end inside -->
+            </div>
             <?php endif; ?>    -->
             
 <!-- Back to top link -->
