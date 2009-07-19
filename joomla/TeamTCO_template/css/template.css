@@ -157,6 +157,9 @@ table.moduletable {}
 ul.newsfeed {}
 ul.latestnews {}
 li.latestnews {}
+.moduletable ul {
+  text-indent: 10px;
+}
 a.latestnews {}
 input#mod_login_username {}
 input#mod_login_password {}

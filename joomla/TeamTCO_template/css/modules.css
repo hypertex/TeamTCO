@@ -40,7 +40,9 @@ div#left .moduletable { margin:0; padding:0px;}
 
 /* @group Right column modules */
 div#right .module,
-div#right .moduletable { margin:0; padding:0px; }
+div#right .moduletable { 
+  margin:0; padding:0px;
+}
 
 	div#right h3 { padding:0; }
 	div#right ul { list-style-type:none; }
@@ -53,6 +55,7 @@ div#right .moduletable { margin:0; padding:0px; }
 #top-user-modules         {
 	padding: 5px;
 	margin-top: 10px;
+  margin-bottom: 20px;
 }
 /* @end top user modules */
 
