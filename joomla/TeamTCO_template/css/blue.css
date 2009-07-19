@@ -222,7 +222,7 @@ div.module { }
 	background-color: #15569B;
   background: url(http://techcorpsohio.org/unified_theme/images/bucket-header-bg.gif) repeat-x;
 	height: 40px;
-	line-height: 4FFFFFF2px;
+	line-height: 40px;
 	text-indent: 5px;
 	color: #006699;	
 	margin-bottom: 0px;
@@ -291,4 +291,4 @@ div.module { }
 }
 
 /* @end horizontal menu */
-								
+
