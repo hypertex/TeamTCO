@@ -1,12 +1,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<?php global $CFG ?>
 <html<?php echo $direction ?>>
 <head>
     <?php echo $meta ?>
     <meta name="keywords" content="moodle, <?php echo $title ?> " />
     <title><?php echo $title ?></title>
     <link rel="shortcut icon" href="<?php echo $CFG->themewww.'/'.current_theme() ?>/favicon.ico" />
-    <link rel="StyleSheet" href="http://www.techcorpsohio.org/unified_theme/css/headers.css" type="text/css" />
-    <link rel="StyleSheet" href="http://www.techcorpsohio.org/unified_theme/css/typography.css" type="text/css" />
+		<?php
+      $csshost = 'techcorpshio.org';
+      if (! ereg("\.org$", $_SERVER['HTTP_HOST'])) {
+        $csshost = $_SERVER['HTTP_HOST'];
+      }
+			echo '<link href="http://' . $csshost . '/unified_theme/css/headers.css" rel="stylesheet" type="text/css" media="screen" />' . "\n";
+			echo '<link href="http://' . $csshost . '/unified_theme/css/typography.css" rel="stylesheet" type="text/css" media="screen" />' . "\n";
+		?>
     <?php include("$CFG->javascript"); ?>
 </head>
 
@@ -16,9 +23,8 @@
         echo " onload=\"setfocus()\"";
     }
     ?>>
-<div class="techcorpsohiosurround">
-<div id="page">
-<a href="http://studenttechcorps.org/moodle"><img src="http://www.techcorpsohio.org/unified_theme/images/tco_student_logo.jpg" alt="TECH CORPS Ohio Student Site" style="border: 0px;" /></a>
+<div id="top-background">
+  <div class="sitenav">
     <?php
       $csshost = 'techcorpsohio.org';
       if (! ereg("\.org$", $_SERVER['HTTP_HOST'])) {
@@ -26,19 +32,34 @@
       } 
       readfile("http://" . $csshost . "/unified_theme/cross_site_nav.php?site=studenttechcorps.org"); 
     ?>
+<div class="clr clearfix heading tco_student_header" id="header">
+        
+ 	<div id="displaysitename">
+    <h1><a href="/"><?php $zsite = get_site(); echo $zsite->fullname; ?></a></h1>
+  </div>  
+  <div id="sitetagline">
+    <h2>Enhancing K-12 education through<br/>
+        the effective use of technology.</h2>
+  </div>
+</div>
+	
+      </div><!-- end top-module -->
+       
+
+            
+        </div>
+  </div>
+</div>
+<!-- div class="techcorpsohiosurround" -->
+<div id="page">
+  <div class="clearfix"></div>
 <?php //Accessibility: warning: ALT text will need editing when logo changes. 'headermain' is now H1.
 
       if ($home) {  // home page ?>
-    <?php print_container_start(true, '', 'header-home'); ?>
-        <h1 class="headermain"><img alt="[ REPLACE ME ]" src="<?php echo $CFG->themewww.'/'.current_theme() ?>/images/logo.jpg" width="457" height="64" /></h1>
         <div class="headermenu"><?php echo $menu ?></div>
-    <?php print_container_end(); ?>
 <?php } else if ($heading) {  // This is what gets printed on any other page with a heading
 ?>
-    <?php print_container_start(true, '', 'header'); ?>
-        <h1 class="headermain"><img alt="[ REPLACE ME ]" src="<?php echo $CFG->themewww.'/'.current_theme() ?>/images/logo.jpg" width="457" height="64" /></h1>
         <div class="headermenu"><?php echo $menu ?></div>
-    <?php print_container_end(); ?>
     <div class="clearer"></div>
 <?php } ?>
 <?php //Accessibility: breadcrumb trail/navbar now a DIV, not a table.

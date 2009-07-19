@@ -25,19 +25,49 @@ div#header {
   height: 108px;
 	background: url("http://techcorpsohio.org/unified_theme/images/tco_logo.jpg") no-repeat;
 }
-
-.tco_club_header {
+#sitetagline h2 {
+  font-size:14pt;
+}
+.tco_club_header h1 {
+  height: 108px;
 	background: url("http://techcorpsohio.org/unified_theme/images/tco_club_logo.jpg") no-repeat;
 }
 
-.tco_student_header {
+.tco_student_header h1 {
+  height: 108px;
 	background: url("http://techcorpsohio.org/unified_theme/images/tco_student_logo.jpg") no-repeat;
 }
 
-.tco_volunteer_header {
+.tco_volunteer_header h1 {
+  height: 108px;
 	background: url("http://techcorpsohio.org/unified_theme/images/tco_logo.jpg") no-repeat;
 }
 
-.tco_register_header {
+.tco_register_header h1 {
+  height: 108px;
 	background: url("http://techcorpsohio.org/unified_theme/images/tco_logo.jpg") no-repeat;
 }
+div#top-background {
+  background:transparent url(http://www.techcorpsohio.org/unified_theme/images/top_background.jpg) no-repeat scroll center top;
+  float:left;
+  height:200px;
+  width:100%;
+}
+div#top-background div.sitenav {
+  margin:0 auto;
+  padding-top:6px;
+  width:960px;
+}
+#sitetagline {
+  margin-bottom:30px;
+  margin-left:125px;
+  margin-top:-55px;
+}
+.clr, .clear {
+  clear:both;
+}
+.clearfix {
+  display:block;
+  min-width:0;
+}
+

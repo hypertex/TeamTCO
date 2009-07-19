@@ -71,6 +71,17 @@ span.breadcrumbs {
 	color: #5a9adf; 
   font-weight: normal;
 }
-
-
-
+ul.sitenav {
+  float:right;
+  font-size:10pt;
+  margin-top:0;
+  margin-bottom:0;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none; 
+  padding-top:5pt;
+}
+ul.sitenav li {
+float:left;
+padding:0 10px;
+}

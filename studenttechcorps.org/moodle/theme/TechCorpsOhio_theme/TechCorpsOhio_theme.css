@@ -25,8 +25,12 @@ a:hover {
   }
 
 body {
-  background-color:#739FC4;
-  border-color:#F7F7F7;
+	background: url(http://www.techcorpsohio.org/unified_theme/images/background.jpg) top center repeat-y #003366;
+  /* background-color:#739FC4;
+  border-color:#F7F7F7; */
+  margin:0;
+  padding:0;
+  text-align:center;
 }
 
 th.header,
@@ -76,14 +80,17 @@ div.header {
 .unread {
   background: #78A2CD;
 } 
+#page {
+  width: 960px;
+  margin: 0 auto;
+}
 
 /***
  *** Header
  ***/
 
 #header-home, #header {
-background: #ececec url(images/hdbg.jpg) 1px 0 repeat-x;
-height:112px;
+  height:220px;
 
 }
 
@@ -92,8 +99,6 @@ height:112px;
   float: none;
   
 }
-
-
 /***
  *** Admin
  ***/
@@ -488,10 +493,10 @@ body#mod-quiz-report table#attempts .r1 {
 /***
  *** Misc Color
  ***/
-
+/*
 .headermenu a:link {
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffff; 
 }
 .headermenu a:visited {
     text-decoration: none;
@@ -501,15 +506,7 @@ body#mod-quiz-report table#attempts .r1 {
     text-decoration: underline;
     color: #ffffff;
 }
-
-
-.techcorpsohiosurround {
-  background: #D0E2EE;
-  border-top: 1px solid #4A677F;
-  border-right: 1px solid #4A677F;
-  border-bottom: 2px groove #4A677F;
-  border-left: 1px solid #4A677F;
-}
+*/
 
 .generalboxcontent {
   background-color:#FFFFFF;
@@ -556,7 +553,7 @@ h6.main {
 
 div.headermenu 
 {
-    position: absolute;
+/*    position: absolute;
     top: 15px;
-    right: 10px;
+    right: 10px; */
 }
