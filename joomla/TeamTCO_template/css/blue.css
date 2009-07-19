@@ -255,14 +255,14 @@ div.module { }
 }
 #nav ul li#current a{
 
-	background-color: #FFDC90;
+/*	background-color: #FFDC90;
 
-	background-repeat: repeat-x;
+	background-repeat: repeat-x; */
 }
 
 #nav ul li ul li#current a{
 	color: #ffffff;
-	background-color: #FFDC90;
+    background: url(http://techcorpsohio.org/unified_theme/images/bucket-header-bg.gif) repeat-x;
 	background-image: none;
 }
 #nav a#active_menu-nav {
