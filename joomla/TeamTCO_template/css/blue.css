@@ -263,7 +263,7 @@ div.module { }
 #nav ul li ul li#current a{
 	color: #ffffff;
     background: url(http://techcorpsohio.org/unified_theme/images/bucket-header-bg.gif) repeat-x;
-	background-image: none;
+
 }
 #nav a#active_menu-nav {
 
