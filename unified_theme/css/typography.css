@@ -54,6 +54,13 @@ a.mainlevel-nav:hover {
   font-weight: normal;
   text-decoration: none;
 }
+.sitenav li {
+  color: #FFFFFF;
+  font-variant: small-caps;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 0 3px;
+}
 .sitenav li a:hover {
   text-decoration: underline;
 }

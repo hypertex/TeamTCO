@@ -12,7 +12,10 @@
 
 <ul class="sitenav">
   <?php build_link("tech corps ohio",    "http://techcorpsohio.org"); ?>
+  <li>|</li>
   <?php build_link("student tech corps", "http://studenttechcorps.org/moodle"); ?>
+  <li>|</li>
   <?php build_link("club tech corps",    "http://clubtechcorps.org"); ?>
+  <li>|</li>
   <?php build_link("tech corps volunteer", "http://techcorpsvolunteer.org"); ?>
 </ul>
