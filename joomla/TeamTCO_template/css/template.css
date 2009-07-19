@@ -157,7 +157,7 @@ table.moduletable {}
 ul.newsfeed {}
 ul.latestnews {}
 li.latestnews {}
-.moduletable ul {
+.moduletable ul.latestnews {
   text-indent: 10px;
 }
 a.latestnews {}

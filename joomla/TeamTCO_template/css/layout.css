@@ -181,24 +181,24 @@ div#cmswaycopyright {
 
 /* this container holds the left column and mainbody content. We load this container first for SEO Source Ordering purposes.
 We set the width of this container based upon the content layout logic. (see includes/template_config.php) */
-	#both #LoadFirst {width: 765px} /* The available width minus the width of the right container */
-	#left-only #LoadFirst {width: 1000px;} /* The available width because we no longer have the right container */
+	#both #LoadFirst {width: 725px} /* The available width minus the width of the right container */
+	#left-only #LoadFirst {width: 960px;} /* The available width because we no longer have the right container */
 	#right-only #LoadFirst {
-	width: 800px;
+	width: 760px;
 } /* The available width minus the width of the right container */
 	#wide #LoadFirst {
-	width: 1000px;
+	width: 960px;
 
 } /* The available width because we no longer have the left or right containers */
 
 
 /* The #MiddleCol container holds the mainbody content. We load this container before we load the left column for SEO Source Ordering purposes.
 We set the width of this container based upon the content layout logic. (see template_config.php) */
-		#both #MiddleCol {width: 555px; float: right;} /* The available width */
-		#left-only #MiddleCol {width: 790px; float:right; margin-right: 5px; } /* The available width minus the width of the left container */
-		#right-only #MiddleCol {width: 790px; margin-left: 5px;} /* The available width minus the width of the right container */
+		#both #MiddleCol {width: 515px; float: right;} /* The available width */
+		#left-only #MiddleCol {width: 750px; float:right; margin-right: 5px; } /* The available width minus the width of the left container */
+		#right-only #MiddleCol {width: 750px; margin-left: 5px;} /* The available width minus the width of the right container */
 		#wide #MiddleCol {
-	width: 990px;
+	width: 950px;
 
 } /* The available width */
 
