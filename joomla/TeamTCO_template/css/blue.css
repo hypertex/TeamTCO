@@ -15,11 +15,12 @@ div#top-background div.sitenav {
   padding-top: 7px;
 }
 	/* @group Links */
-			a, a:link {
+/*			a, a:link {
 	color: #15569B;
 }
 			a:visited {}
 			a:hover {color: #0C3058; text-decoration: underline;}
+      */
 /* @end links */
 	
 h1.pagetitle, h1.pagetitle a {
@@ -209,23 +210,23 @@ div.module { }
 
 #left h3 {
 	background-color: #15569B;
+  background: url(http://techcorpsohio.org/unified_theme/images/bucket-header-bg.gif) repeat-x;
 	height: 40px;
-	line-height: 35px;
+	line-height: 42px;
 	text-indent: 5px;
-
-	background-repeat: no-repeat;
-	color: #ffffff;	
+	color: #006699;	
 	margin-bottom: 0px;
-	margin-top: 0px;
+	margin-top: 5px;
 }
 
 
 #right h3 {
 	background-color: #15569B;
+  background: url(http://techcorpsohio.org/unified_theme/images/bucket-header-bg.gif) repeat-x;
 	height: 40px;
-	line-height: 35px;
+	line-height: 42px;
 	text-indent: 5px;
-	color: #ffffff;	
+	color: #006699;	
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
