@@ -1,8 +1,9 @@
 /*******************************************************************
- Cornflower CSS
+ TechCorpsOhio CSS
   
  This CSS file contains all color and layout definitions 
- for the Cornflower theme.
+ for the TechCorpsOhio theme.  This theme was based off of the 
+ Cornflower theme.
  
  This theme requires the Standard theme to be present.
  
@@ -502,7 +503,7 @@ body#mod-quiz-report table#attempts .r1 {
 }
 
 
-.cornflowersurround {
+.techcorpsohiosurround {
   background: #D0E2EE;
   border-top: 1px solid #4A677F;
   border-right: 1px solid #4A677F;
