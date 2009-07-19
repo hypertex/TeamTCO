@@ -60,7 +60,7 @@ $user =& JFactory::getUser();
 <body id="<?php echo $style ;?>" class="joomla">
 <div id="top-background">
   <div class="sitenav">
-    <?php require("http://" . $_SERVER['HTTP_HOST'] . "/unified_theme/cross_site_nav.php?site=techcorpsohio.org"); ?>
+    <?php readfile("http://" . $_SERVER['HTTP_HOST'] . "/unified_theme/cross_site_nav.php?site=techcorpsohio.org"); ?>
         <div id="header" class="clr clearfix heading techcorpsohio_header">
         
         <?php if ($this->params->get('sitename') == 1): ?>
