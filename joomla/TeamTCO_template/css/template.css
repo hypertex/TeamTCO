@@ -158,7 +158,7 @@ ul.newsfeed {}
 ul.latestnews {}
 li.latestnews {}
 .moduletable ul.latestnews {
-  text-indent: 10px;
+/*  text-indent: 10px;   */
 }
 a.latestnews {}
 input#mod_login_username {}
