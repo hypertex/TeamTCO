@@ -19,6 +19,13 @@
 <div class="techcorpsohiosurround">
 <div id="page">
 <a href="http://studenttechcorps.org/moodle"><img src="http://www.techcorpsohio.org/unified_theme/images/tco_student_logo.jpg" alt="TECH CORPS Ohio Student Site" style="border: 0px;" /></a>
+    <?php
+      $csshost = 'techcorpsohio.org';
+      if (! ereg("\.org$", $_SERVER['HTTP_HOST'])) {
+        $csshost = $_SERVER['HTTP_HOST'];
+      } 
+      readfile("http://" . $csshost . "/unified_theme/cross_site_nav.php?site=techcorpsohio.org"); 
+    ?>
 <?php //Accessibility: warning: ALT text will need editing when logo changes. 'headermain' is now H1.
 
       if ($home) {  // home page ?>
