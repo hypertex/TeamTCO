@@ -10,14 +10,19 @@ a {
 }
 
 a:hover{
-	text-decoration: underline;Arial,Helvetica,Garuda,sans-serif;
+	text-decoration: underline;
 }
 
 a:visited {
 	color: #CA0000;
 }
+h1 {
+  color: #006699;
+  font-size: 24pt;
+}
 .header,h2{
   color: #006699;
+  font-size: 20pt;
 }
 
 .subheader,h3{
@@ -46,7 +51,9 @@ a.mainlevel-nav:hover {
 .sitenav li a:hover {
   text-decoration: underline;
 }
-
+span.breadcrumbs {
+  font-size: 9pt;
+}
 #currentsite {
 	color: #5a9adf; 
   font-weight: normal;

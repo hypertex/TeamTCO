@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	background-color: url(http://www.techcorpsohio.org/unified_theme/images/background.jpg) center repeat-y #003366;
+	background: url(http://www.techcorpsohio.org/unified_theme/images/background.jpg) center repeat-y #003366;
 }
 
 /* this declaration is for ie6 only, if you need to set specific font styles for the newsflash module and you have it published

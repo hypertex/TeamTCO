@@ -65,7 +65,7 @@ $user =& JFactory::getUser();
         
         <?php if ($this->params->get('sitename') == 1): ?>
        	<div id="displaysitename">
-          <h1><a><?php echo $mainframe->getCfg('sitename') ?></a></h1>
+          <h1><a href="<?php echo $this->baseurl ?>"><?php echo $mainframe->getCfg('sitename') ?></a></h1>
         </div>  
         <div id="sitetagline">
           <h2>Enhancing K-12 education through<br />
