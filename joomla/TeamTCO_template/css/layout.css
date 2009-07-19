@@ -17,7 +17,9 @@ body {
 	margin-left: 5px;
 	margin-right:5px;
 } /* we add margin or padding for the main body column here rather than above so as not to break the layout */
-	
+div.count2 div.inside	{
+  border: 1px solid #f1ede7;
+}
 	div#backtotoplink a {
 	float: right;
 	width: auto;

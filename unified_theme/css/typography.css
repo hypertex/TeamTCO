@@ -5,7 +5,7 @@ body {
   line-height: 1.35em;
 }
 p {
-  margin-top: 15px;
+  margin-bottom: 15px;
 }
 a {
 	color: #CC0000;
@@ -24,7 +24,7 @@ h1 {
   color: #006699;
   font-size: 18pt;
   line-height: 1.2em;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .header,h2{
   color: #006699;
