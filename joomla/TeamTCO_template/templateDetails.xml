@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>TechCorpsOhio</name>
+<creationDate>2009/8/3</creationDate>
+<author>TeamTCO</author>
+<authorEmail>teamtco@adelphus.com</authorEmail>
+<authorUrl>http://www.columbusgivecamp.com</authorUrl>
+<copyright>Joomlatheme Pro</copyright>
+<license>Creative Commons</license>
+<version>1.0</version>
+<description>
+<![CDATA[
+			<h1>TechCorps Ohio Theme by TeamTCO</h1>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/nl/"><img src="http://creativecommons.org/images/public/somerights20.png" alt="Creative Commons License" align="right" style="border-width:0" /></a>
+  <ul>
+
+  <li><span xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:title">TechCorps Ohio</span> van <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.joomlathemepro.com" property="cc:attributionName" rel="cc:attributionURL">JoomlaTheme Pro</a> is in licentie gegeven volgens een <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/nl/">Creative Commons Naamsvermelding-Gelijk delen 3.0 Nederland licentie</a>.    </li>
+  <li><span xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:title">TechCorps Ohio</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.joomlathemepro.com" property="cc:attributionName" rel="cc:attributionURL">JoomlaTheme Pro</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/nl/">Creative Commons Attribution-Share Alike 3.0 Netherlands License</a>.
+  </li>
+</ul>
+			<ul>
+			<li>Gratis voor persoonlijk en commercieel gebruik</li>
+			<li>Het is NIET toegestaan om de copyright in de footer te verwijderen.</li>
+			</ul>
+
+			U vind meer templates en informatie op onze website: <b><a href="http://www.joomlathemepro.com" title="JoomlaTheme Pro - Professional Joomla Templates" target="_blank">JoomlaTheme Pro</a></b>
+
+			You can find more templates and information on our website: <b><a href="http://www.joomlathemepro.com" title="JoomlaTheme Pro - Professional Joomla Templates" target="_blank">JoomlaTheme Pro</a></b>
+			]]></description>
+
+<files>
+<filename>favicon.ico</filename>
+<filename>index.html</filename>
+<filename>index.php</filename>
+<filename>params.ini</filename>
+<filename>template_thumbnail.png</filename>
+<filename>css/basic_typography.css</filename>
+<filename>css/blue.css</filename>
+<filename>css/clearing.css</filename>
+<filename>css/green.css</filename>
+<filename>css/iepngfix.htc</filename>
+<filename>css/ie_hacks.css</filename>
+<filename>css/index.html</filename>
+<filename>css/initial.css</filename>
+<filename>css/joomla.css</filename>
+<filename>css/layout.css</filename>
+<filename>css/menus.css</filename>
+<filename>css/modules.css</filename>
+<filename>css/style.css</filename>
+<filename>css/template.css</filename>
+<filename>images/bluecolor.gif</filename>
+<filename>images/emailButton.png</filename>
+<filename>images/greencolor.gif</filename>
+<filename>images/index.html</filename>
+<filename>images/logo.gif</filename>
+<filename>images/pdf_button.png</filename>
+<filename>images/printButton.png</filename>
+<filename>images/spacer.gif</filename>
+<filename>images/up.gif</filename>
+<filename>includes/cp.php</filename>
+<filename>includes/index.html</filename>
+<filename>includes/template_config.php</filename>
+<filename>javascript/iehover.js</filename>
+<filename>javascript/index.html</filename>
+<filename>javascript/styleswitch.js</filename>
+<filename>html/com_content/index.html</filename>
+<filename>html/com_newsfeeds/index.html</filename>
+<filename>html/com_poll/index.html</filename>
+<filename>html/com_search/index.html</filename>
+<filename>html/com_user/index.html</filename>
+<filename>html/com_weblinks/index.html</filename>
+<filename>html/mod_breadcrumbs/default.php</filename>
+<filename>html/mod_breadcrumbs/index.html</filename>
+<filename>html/mod_newsflash/default.php</filename>
+<filename>html/mod_newsflash/horiz.php</filename>
+<filename>html/mod_newsflash/index.html</filename>
+<filename>html/mod_newsflash/vert.php</filename>
+<filename>html/mod_newsflash/_item.php</filename>
+<filename>images/blue/footbg.jpg</filename>
+<filename>images/blue/h3bg.jpg</filename>
+<filename>images/blue/header.jpg</filename>
+<filename>images/blue/maincolboth.jpg</filename>
+<filename>images/blue/maincolsingle.jpg</filename>
+<filename>images/blue/maincolwide.jpg</filename>
+<filename>images/blue/modtop.jpg</filename>
+<filename>images/blue/navtop.jpg</filename>
+<filename>images/blue/navtophover.jpg</filename>
+<filename>images/blue/padweg.jpg</filename>
+<filename>images/blue/pagebg.jpg</filename>
+<filename>images/blue/topmod-top.jpg</filename>
+<filename>images/blue/topmod.jpg</filename>
+<filename>images/green/footbg.jpg</filename>
+<filename>images/green/h3bg.jpg</filename>
+<filename>images/green/header.jpg</filename>
+<filename>images/green/maincolboth.jpg</filename>
+<filename>images/green/maincolsingle.jpg</filename>
+<filename>images/green/maincolwide.jpg</filename>
+<filename>images/green/modtop.jpg</filename>
+<filename>images/green/navtop.jpg</filename>
+<filename>images/green/navtophover.jpg</filename>
+<filename>images/green/padweg.jpg</filename>
+<filename>images/green/pagebg.jpg</filename>
+<filename>images/green/topmod-top.jpg</filename>
+<filename>images/green/topmod.jpg</filename>
+<filename>html/com_contact/category/default.php</filename>
+<filename>html/com_contact/category/default_items.php</filename>
+<filename>html/com_contact/category/index.html</filename>
+<filename>html/com_contact/contact/default.php</filename>
+<filename>html/com_contact/contact/default_address.php</filename>
+<filename>html/com_contact/contact/default_form.php</filename>
+<filename>html/com_contact/contact/index.html</filename>
+<filename>html/com_content/article/default.php</filename>
+<filename>html/com_content/article/form.php</filename>
+<filename>html/com_content/article/index.html</filename>
+<filename>html/com_content/category/blog.php</filename>
+<filename>html/com_content/category/blog_item.php</filename>
+<filename>html/com_content/category/blog_links.php</filename>
+<filename>html/com_content/category/default.php</filename>
+<filename>html/com_content/category/default_items.php</filename>
+<filename>html/com_content/category/index.html</filename>
+<filename>html/com_content/frontpage/default.php</filename>
+<filename>html/com_content/frontpage/default_item.php</filename>
+<filename>html/com_content/frontpage/default_links.php</filename>
+<filename>html/com_content/frontpage/index.html</filename>
+<filename>html/com_content/section/blog.php</filename>
+<filename>html/com_content/section/blog_item.php</filename>
+<filename>html/com_content/section/blog_links.php</filename>
+<filename>html/com_content/section/default.php</filename>
+<filename>html/com_content/section/index.html</filename>
+<filename>html/com_newsfeeds/categories/default.php</filename>
+<filename>html/com_newsfeeds/categories/index.html</filename>
+<filename>html/com_newsfeeds/category/default.php</filename>
+<filename>html/com_newsfeeds/category/default_items.php</filename>
+<filename>html/com_newsfeeds/category/index.html</filename>
+<filename>html/com_newsfeeds/newsfeed/default.php</filename>
+<filename>html/com_newsfeeds/newsfeed/index.html</filename>
+<filename>html/com_poll/poll/default.php</filename>
+<filename>html/com_poll/poll/default_graph.php</filename>
+<filename>html/com_poll/poll/index.html</filename>
+<filename>html/com_search/search/default.php</filename>
+<filename>html/com_search/search/default_error.php</filename>
+<filename>html/com_search/search/default_form.php</filename>
+<filename>html/com_search/search/default_results.php</filename>
+<filename>html/com_search/search/index.html</filename>
+<filename>html/com_search/search/yoosearch.php</filename>
+<filename>html/com_user/login/default.php</filename>
+<filename>html/com_user/login/default_login.php</filename>
+<filename>html/com_user/login/default_logout.php</filename>
+<filename>html/com_user/login/index.html</filename>
+<filename>html/com_user/register/default.php</filename>
+<filename>html/com_user/register/default_message.php</filename>
+<filename>html/com_user/register/index.html</filename>
+<filename>html/com_user/remind/default.php</filename>
+<filename>html/com_user/remind/index.html</filename>
+<filename>html/com_user/reset/complete.php</filename>
+<filename>html/com_user/reset/confirm.php</filename>
+<filename>html/com_user/reset/default.php</filename>
+<filename>html/com_user/reset/index.html</filename>
+<filename>html/com_user/user/default.php</filename>
+<filename>html/com_user/user/form.php</filename>
+<filename>html/com_user/user/index.html</filename>
+<filename>html/com_weblinks/categories/default.php</filename>
+<filename>html/com_weblinks/categories/index.html</filename>
+<filename>html/com_weblinks/category/default.php</filename>
+<filename>html/com_weblinks/category/default_items.php</filename>
+<filename>html/com_weblinks/category/index.html</filename>
+<filename>html/com_weblinks/weblink/form.php</filename>
+<filename>html/com_weblinks/weblink/index.html</filename>
+</files>
+<positions>
+<position>user4</position>
+<position>user3</position>
+<position>top</position>
+<position>breadcrumbs</position>
+<position>user1</position>
+<position>user2</position>
+<position>user6</position>
+<position>user7</position>
+<position>left</position>
+<position>right</position>
+<position>footer</position>
+<position>debug</position>
+</positions>
+
+<params>
+		<param name="colorStyle" type="list" default="green" label="Template Kleur" description="Kleur van de Template">
+			<option value="green">Groen</option>
+			<option value="blue">Blauw</option>
+		</param>
+		
+		<param name="styleSwitch" type="list" default="1" label="Frontend Styleswitcher" description="Select whether or not to use the frontend styleswtcher">
+        	<option value="1">On</option>
+        	<option value="0">Off</option>
+		</param>
+			
+		<param name="sitename" type="list" default="0" label="Display Sitename" description="Select if you want to display sitename and hide the logo image">
+        	<option value="1">On</option>
+        	<option value="0">Off</option>
+		</param>
+				
+		<param name="logo" type="list" default="1" label="Display Logo" description="Select if you want to display logo and hide the sitename">
+        	<option value="1">On</option>
+        	<option value="0">Off</option>
+		</param>
+</params>
+	
+</install>

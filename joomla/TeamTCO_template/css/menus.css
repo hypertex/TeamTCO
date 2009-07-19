@@ -1,0 +1,102 @@
+/*
+*	CSS based dropdown and flyout menus
+*	You shouldn't need to edit anything in this file
+*	as the rules contained herein only govern the
+*	dropdown behaviour of the top menu's submenus and 
+*	the flyout behaviours of the left and right menus.
+*/
+
+/* @group Horizontal dropdown suckerfish menu */
+#nav {
+	position: relative;
+	margin: 0px;
+	z-index: 900;
+	float: left;
+	width: 960px;
+	clear: both;
+	height: 40px;
+	text-transform: uppercase;
+}
+	#nav ul {
+	padding: 0px;
+	margin: 0;
+	list-style-type: none;
+}
+		#nav ul li {
+	float:left;
+	width: auto;
+	margin: 0px;
+	position: relative;
+}
+			#nav ul li a, #nav ul li a:visited {
+	display: block;
+	padding: 0px 10px 0px 10px;
+	text-decoration: none;
+	overflow: hidden;
+	line-height: 40px;
+	height: 40px;
+}
+#nav ul li a:hover {
+  text-decoration: underline;
+}
+				#nav ul li ul {
+	display: none;
+}
+				#nav ul li:hover ul, #nav ul li.iehover ul {
+	display: block;
+	position: absolute;
+}/* This rule tells our submenu to appear on hover over parent */
+						#nav ul li:hover ul li ul, #nav ul li.iehover ul li ul {
+	display: none;
+}
+							#nav ul li:hover ul li a, #nav ul li.iehover ul li a {
+	display: block;
+}
+								#nav ul li:hover ul li:hover ul, #nav ul li.iehover ul li.iehover ul {
+	display: block;
+	position: absolute;
+}/* This rule tells our sub submenu to appear on hover over parent*/
+/* @end */
+
+/* @group Horizontal dropdown suckerfish menu */
+
+/* common styling */
+
+			#nav ul li a:hover, #nav ul li#current a, #nav a#active_menu-nav {}
+			#nav ul li:hover a, #nav ul li.iehover a {}
+/* top level parent */
+			#nav ul li.parent a:after {content: " +";}
+			#nav ul li.parent li a:after {content: none;}
+			
+/* first sub-level list (tier 2 links) */
+				#nav ul li ul {}
+				#nav ul li:hover ul, #nav ul li.iehover ul {top:40px;  width:200px;}
+				#nav ul li:hover ul li a, #nav ul li.iehover ul li a {width:200px;padding: 0px;text-indent:10px;}
+				#nav ul li:hover ul li:hover a, #nav ul li.iehover ul li.iehover a {}
+/* first sub-level parent */
+					#nav ul li li.parent a:after {content: " +";}
+					#nav ul li li.parent li a:after {content: none;}
+
+/* Second sub-level list (tier 3 links)*/
+						#nav ul li:hover ul li ul, #nav ul li.iehover ul li ul {}
+							#nav ul li:hover ul li a, #nav ul li.iehover ul li a {}
+							#nav ul li:hover ul li a:hover, #nav ul li.iehover ul li a:hover {}
+							#nav ul li:hover ul li:hover ul, #nav ul li.iehover ul li.iehover ul {display:block; position:absolute; left:201px; top:-1px;}
+/* second sub-level parent */
+									#nav ul li li li.parent a:after {content: " +";}
+									#nav ul li li li.parent li a:after {content: none;}
+/* @end horizontal menu */
+
+ul.sitenav {
+	float: right;
+/*	width: 100%; 
+	background-color: #003366; */
+	margin-top: 0;
+  padding-top: 5pt;
+  font-size: 10pt;
+}
+
+ul.sitenav li {
+	float: left;
+	padding: 0 10px 0 10px;
+}

@@ -1,0 +1,223 @@
+/* @group General site layout */
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: url(http://www.techcorpsohio.org/unified_theme/images/background.jpg) center repeat-y #003366;
+}
+
+/* this declaration is for ie6 only, if you need to set specific font styles for the newsflash module and you have it published
+			in the Joomla default top position then you will need to set them here */
+			div#top-module table.contentpaneopen {}
+/* @end Basic typography */
+
+
+	.hidden { display: none; }
+	div.inside {
+	margin-left: 5px;
+	margin-right:5px;
+} /* we add margin or padding for the main body column here rather than above so as not to break the layout */
+div.count2 div.inside	{
+  border: 1px solid #f1ede7;
+}
+	div#backtotoplink a {
+	float: right;
+	width: auto;
+}
+/* @end general site layout */
+
+/* @group Header */
+		div#header {
+/* Removed to unified theme
+  margin: 0;
+	padding: 0px 0px;
+  padding-top: 1px;
+	text-align: left;
+	min-height: 108px; */
+}
+		
+		div#branding {
+	float: left;
+	width: 500px;
+	height: 130px;
+	margin-left: 200px;
+	margin-top:20px;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	}
+	
+			div#displaysitename {
+/*	float: left;
+	width: 500px;
+	height: 130px;
+	margin-left: 200px;
+	margin-top:20px;
+*/
+	}
+/* -- Access links -- */
+			ul#access {list-style-type: none;}
+			ul#access:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+				ul#access li{
+	float: left;
+	margin: 0;
+	padding: 0px 5px 3px 5px;
+	width: auto;
+}
+
+
+/* -- Top module container -- */			
+			div#top-module {
+	padding: 10px;
+	width: 980px;
+} /* 10 pixels top padding, 20 pixels right padding, 0 pixels bottom padding and 0 pixels left padding */
+
+/* -- Breadcrumbs container -- */	
+			div#breadcrumbs {
+	float: left;
+	text-align: left;
+	padding-left: 10px;
+	width: 80%;
+} /* beacuse the above divs have widths equalling 89% and 40pixels horizontal padding (left padding + right padding) there may be a gap between those two modules. We want to ensure that the breadcrumbs module clears both of these modules */
+
+
+div#colorchooser {
+	display: block;
+	float: right;
+	text-align: right;
+	width: 60px;
+}
+/* @end header */
+
+/* NAVIGATION DIV 
+	div#nav {See css/menus.css}
+*/
+
+
+/* -- Teaser Modules -- */
+/* To work out the widths of the teaser modules we are going to have to know how many are published in a row (upto four modules per row).
+See includes/template_config.php */ 
+				div.count1 {width:100%; float:left;}
+				div.count2 {width:50%; float:left;}
+				div.count3 {width:33%; float:left;}
+				div.count4 {width:25%; float:left;}
+			
+/* this container holds the left column content. We load this container before we load the right column for SEO Source Ordering purposes. */
+		#left {float: left; width: 200px;}
+
+/* this container holds the right column content. */
+	#right {float:right; width: 190px;}
+			#left div.inside {
+
+
+} /* we add margin or padding for the left cloumn here rather than above so as not to break the layout */
+
+#left h3 {
+	margin-top: 0px;
+}
+
+			#right div.inside {
+
+
+} /* we add margin or padding for the right cloumn here rather than above so as not to break the layout */
+
+#left h3 {
+	margin-top: 0px;
+}
+
+#left ul {
+	margin: 5px;
+}
+
+.bannergroup_text {
+	margin: 0px 5px 10px 5px;
+}
+/* @end Maincontent */
+/* @group Footer*/
+	#footer {text-align:center;}
+			#footer div.inside {
+	margin: 10px 0px 10px 10px;
+	
+} /* we add margin or padding for the footer here rather than above so as not to break the layout */
+/* @end footer */
+
+#footermax {
+	
+}
+
+div#cmswaycopyright {
+	padding: 5px;
+	
+}
+
+/* @group Layout */
+
+/* @group Maincontent */
+	#BodyContent {
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+	text-align: left;
+	clear: both;
+}
+		#LoadFirst {
+	float:left;
+	width: auto;
+}
+
+/* @group Maincontent */
+
+	div#page {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+} /* we want to center this div for browsers that understand so we have an auto declaration for the left and right margin */ 	
+
+	div#nav {width: 950px; margin: 0 1px;} /* the width of our outermost container minus any margin or padding */
+	
+	li.narrow {display: block;}
+	li.wide {display: none;}
+
+/* @group Maincontent */
+
+/* this container holds the left column and mainbody content. We load this container first for SEO Source Ordering purposes.
+We set the width of this container based upon the content layout logic. (see includes/template_config.php) */
+	#both #LoadFirst {width: 725px} /* The available width minus the width of the right container */
+	#left-only #LoadFirst {width: 960px;} /* The available width because we no longer have the right container */
+	#right-only #LoadFirst {
+	width: 760px;
+} /* The available width minus the width of the right container */
+	#wide #LoadFirst {
+	width: 960px;
+
+} /* The available width because we no longer have the left or right containers */
+
+
+/* The #MiddleCol container holds the mainbody content. We load this container before we load the left column for SEO Source Ordering purposes.
+We set the width of this container based upon the content layout logic. (see template_config.php) */
+		#both #MiddleCol {width: 515px; float: right;} /* The available width */
+		#left-only #MiddleCol {width: 750px; float:right; margin-right: 5px; } /* The available width minus the width of the left container */
+		#right-only #MiddleCol {width: 750px; margin-left: 5px;} /* The available width minus the width of the right container */
+		#wide #MiddleCol {
+	width: 950px;
+
+} /* The available width */
+
+
+/* @end Maincontent */
+
+#sitetagline {
+  margin-top: -55px;
+  margin-left: 125px;
+  margin-bottom: 30px;
+}
+#sitetagline h2 {
+  font-size: 14pt;
+}
+
+#slideshow_images {
+	float: right;
+	margin-right: 25px;
+	margin-top: 10px;
+}
+
+/* @end Layout */

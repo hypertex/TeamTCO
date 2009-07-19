@@ -1,0 +1,75 @@
+/* @group Search form */
+div.search input { padding:3px  5px; }
+div.search input.button { margin: 0 10px 0 5px; }
+/* @end search module */
+
+/* @group login module */
+form#form-login { margin:0; padding:0; }
+	form#form-login p { margin:0; padding:0; }
+
+	form#form-login input#modlgn_username,
+	form#form-login input#modlgn_passwd { margin:0; padding:3px  5px; }
+
+	form#form-login input.button { }
+/* @end login module */
+
+/* @group Moduletable headers */
+.moduletable h3, .moduletable_text h3, .moduletable_menu h3 { margin:0 0 0 0; padding: 5px; font-size: 1.0em; font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif; font-weight: bold }
+/* @end moduletable headers */
+
+/* @group Round corner modules */
+div.module { }
+	div.module div { margin:0; padding:1em 0 0 0; }
+		div.module div div { margin:0; padding:0 0 0 7px; }
+			div.module div div div { margin:0;  padding:0 0 0.5em 0; }
+				div.module div div div div { margin:0; padding:0; }
+					div.module div div div div p { margin:0; padding:0; line-height:1.6; background:none; }
+/* @end Round corner modules */
+
+
+/* @group Left column modules */
+div#left .module,
+div#left .moduletable { margin:0; padding:0px;}
+
+	div#left h3 { padding:0; }
+	div#left ul { list-style-type:none; }
+		div#left li { margin:0 0 0 20px; padding:0; }
+		div#left p { margin:0 0 0 7px; padding:0 0 10px 0; }
+		div#left a { }
+/* @end left column modules */
+
+/* @group Right column modules */
+div#right .module,
+div#right .moduletable { 
+  margin:0; padding:0px;
+}
+
+	div#right h3 { padding:0; }
+	div#right ul { list-style-type:none; }
+		div#right li { margin:0 0 0 20px; padding:0; }
+	div#right p { margin:0 0 0 7px; padding:0 0 0px 0; }
+	div#right a { }
+/* @end right column modules */
+
+/* @group Top user modules */
+#top-user-modules         {
+	padding: 5px;
+	margin-top: 10px;
+  margin-bottom: 20px;
+}
+/* @end top user modules */
+
+/* @group Bottom user modules */
+#bottom-user-modules         { 
+		padding: 5px;
+	margin-top: 10px;
+		margin-bottom: 10px;
+}
+/* @end Bottom user modules */
+
+#search-module {
+	width: 185px;
+	float:right;
+	margin-top: 25px;
+}
+

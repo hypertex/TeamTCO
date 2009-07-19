@@ -1,0 +1,76 @@
+body {
+	color: #000033;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 11pt;
+  line-height: 1.35em;
+}
+p {
+  margin-bottom: 15px;
+}
+a {
+	color: #CC0000;
+	font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #CA0000;
+}
+h1 {
+  color: #006699;
+  font-size: 18pt;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+.header,h2{
+  color: #006699;
+  font-size: 20pt;
+}
+
+.subheader,h3{
+	font-weight: bold;
+	font-size: 14pt;
+	color: #006699;
+}
+
+a.mainlevel-nav {
+	color: #554433;
+	font-size: 11pt;
+	font-variant: small-caps;
+  font-weight: normal;
+}
+
+a.mainlevel-nav:hover {
+  text-decoration: underline;
+}
+
+.sitenav li a {
+	color: #FFFFFF;
+	font-variant: small-caps;
+  font-weight: normal;
+  text-decoration: none;
+}
+.sitenav li {
+  color: #FFFFFF;
+  font-variant: small-caps;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 0 3px;
+}
+.sitenav li a:hover {
+  text-decoration: underline;
+}
+span.breadcrumbs {
+  font-size: 9pt;
+}
+#currentsite {
+	color: #5a9adf; 
+  font-weight: normal;
+}
+
+
+

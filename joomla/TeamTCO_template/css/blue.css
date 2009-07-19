@@ -1,0 +1,294 @@
+/*Layoutstyling */
+
+body {
+	background: url(http://www.techcorpsohio.org/unified_theme/images/background.jpg) top center repeat-y #003366;
+}
+div#top-background {
+  background: url(http://www.techcorpsohio.org/unified_theme/images/top_background.jpg) top center no-repeat transparent;
+  width: 100%;
+  float: left;
+  height: 200px;
+}
+div#top-background div.sitenav {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 6px;
+}
+	/* @group Links */
+/*			a, a:link {
+	color: #15569B;
+}
+			a:visited {}
+			a:hover {color: #0C3058; text-decoration: underline;}
+      */
+/* @end links */
+	
+h1.pagetitle, h1.pagetitle a {
+	color: #0C3058;
+}
+
+h1.title, h1.title a {
+	color: #006699;
+}
+
+#BodyContent {
+	background-repeat: repeat;
+	background-position: 30px;
+}
+	
+div#header {
+  background-repeat: no-repeat;
+}
+
+#displaysitename h1{
+	color:#000000;
+	font-family: "Trebuchet MS", Verdana, Helvetica, Arial;
+	font-size: 1.75em;
+}
+
+div#top-module-top {
+background-image: url(../images/blue/topmod-top.jpg);
+background-repeat: no-repeat;
+height: 10px;
+margin-top: 5px;
+}
+
+div#top-module {
+	background-image: url(../images/blue/topmod.jpg);
+	background-repeat: repeat-y;
+}
+
+div#top-module-bottom {
+background-image: url(../images/blue/topmod-top.jpg);
+background-repeat: no-repeat;
+height: 10px;
+}
+
+div#top-module a {
+	color: #15569B;
+}
+
+#top-module h3 {
+	color: #0C3058;
+}
+
+div#padweg {
+	width: 100%;
+	/* background-color: #ccffcc; */
+	height: 34px;
+	line-height: 26px;
+	background-repeat: repeat-x;
+	color:#AAAAAA;
+	margin-top: 5px;
+}
+
+div#padweg a {
+	color:#BBBBBB;
+  text-decoration: underline;
+}
+
+div#breadcrumbs {
+	
+}
+
+
+
+#left-only #MiddleCol {
+/*	background: url(../images/blue/maincolsingle.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #ffffff;
+	*/
+} 
+		#right-only #MiddleCol {	
+/*	background: url(../images/blue/maincolsingle.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #ffffff;
+	*/
+	} 
+		#wide #MiddleCol {
+/*		background: url(../images/blue/maincolwide.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #ffffff;
+	*/
+	} 
+
+#both #MiddleCo {
+/*	background-image: url(../images/blue/maincolboth.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #ffffff;
+	*/
+}
+
+#left div.inside {
+	background-color: #fff;
+	
+}
+
+#right div.inside {
+	background-color: #fff;
+	
+
+	
+}
+
+#footermax {
+/*	background-color: #15569B; */
+	background-repeat: repeat-x;
+	background-position: top;
+	min-height:24px;
+/*	color: #fff; */
+}
+
+#footermax a{
+color:#fff;
+}
+
+#footer div.inside {
+	
+}
+
+div#jtpcopyright {
+	color: #fff;
+	font-size: 10px;
+}
+
+div#jtpcopyright a{
+	color: #fff;
+}
+
+/* Modulestyling */
+
+#top-user-modules .moduletable, #top-user-modules .moduletable_text, #top-user-modules .moduletable_menu        {
+	padding: 5px;
+}
+
+#top-user-modules a        {
+	color: #006699;
+}
+
+#bottom-user-modules .moduletable, #bottom-user-modules .moduletable_text, #bottom-user-modules .moduletable_menu        {
+	background-color: #15569B;
+	background-image: url(../images/blue/modtop.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding: 5px;
+}
+
+#bottom-user-modules {
+	margin-top: 10px;
+	padding: 0px;
+}
+#bottom-user-modules a        {
+	color: #ffffff;
+}
+
+#search-module {
+  margin-top: 36px;	
+  margin-left: 6px;
+}
+
+div.module { }
+	div.module div { margin:0; padding:1em 0 0 0; }
+		div.module div div {
+	margin: 0;
+	padding: 0 0 0 7px;
+}
+			div.module div div div {
+	margin: 0;
+	padding: 0 0 0.5em 0;
+	
+}
+				div.module div div div div { margin:0; padding:0; }
+					div.module div div div div p { margin:0; padding:0; line-height:1.6; background:none; }
+
+#left h3 {
+	background-color: #15569B;
+  background: url(http://techcorpsohio.org/unified_theme/images/bucket-header-bg.gif) repeat-x;
+	height: 38px;
+	line-height: 40px;
+	text-indent: 5px;
+	color: #006699;	
+	margin-bottom: 0px;
+	margin-top: 5px;
+  border: 1px solid #f1ede7;
+}
+
+
+#right h3 {
+	background-color: #15569B;
+  background: url(http://techcorpsohio.org/unified_theme/images/bucket-header-bg.gif) repeat-x;
+	height: 40px;
+	line-height: 4FFFFFF2px;
+	text-indent: 5px;
+	color: #006699;	
+	margin-bottom: 0px;
+	margin-top: 0px;
+  border: 1px solid #f1ede7;
+}
+
+.moduletable h3, .moduletable_text h3, .moduletable_menu h3 {
+	text-transform: uppercase;
+  font-size: 12pt;
+}
+
+/* Menustyling */
+
+#nav {
+	background-color: #ccffcc;
+	background-image: url(http://techcorpsohio.org/unified_theme/images/bucket-header-bg.gif);
+	background-repeat: repeat-x;
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+			
+#nav ul li a, #nav ul li a:visited {
+/*
+	border-right: 1px solid #0C3058; */
+}
+#nav ul li a:hover {
+
+
+	background-repeat: repeat-x;
+}
+#nav ul li#current a{
+
+	background-color: #FFDC90;
+
+	background-repeat: repeat-x;
+}
+
+#nav ul li ul li#current a{
+	color: #ffffff;
+	background-color: #FFDC90;
+	background-image: none;
+}
+#nav a#active_menu-nav {
+
+}
+#nav ul li:hover a, #nav ul li.iehover a {
+}
+
+			
+/* first sub-level list (tier 2 links) */
+				#nav ul li ul {
+	border-left: 1px solid #0C3058;
+	border-bottom: 1px solid #0C3058;
+}
+				#nav ul li:hover ul li a, #nav ul li.iehover ul li a {background:#F0F2BF;color:#973265;}
+				#nav ul li:hover ul li:hover a, #nav ul li.iehover ul li.iehover a {
+	text-decoration: underline;
+}
+
+
+/* Second sub-level list (tier 3 links)*/
+							#nav ul li:hover ul li a, #nav ul li.iehover ul li a {color:#973265;}
+							#nav ul li:hover ul li a:hover, #nav ul li.iehover ul li a:hover {
+	color: #0C3058;
+	text-decoration: underline;
+}
+
+/* @end horizontal menu */
+								
